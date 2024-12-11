@@ -4,9 +4,7 @@ import { Repository } from 'typeorm';
 import { Task } from './task.entity';
 
 
-// +------------------------------------------------------------------------------------------------------------------------+
-// | tasks services                                                                                                         |
-// +------------------------------------------------------------------------------------------------------------------------+
+// tasks services
 @Injectable()
 export class TasksService {
   constructor(                                                                        // dependency injection

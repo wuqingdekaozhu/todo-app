@@ -4,9 +4,7 @@ import { TasksModule } from './tasks/tasks.module';
 import { ConfigModule } from '@nestjs/config';
 
 
-// +------------------------------------------------------------------------------------------------------------------------+
-// | define mysql module                                                                                                    |
-// +------------------------------------------------------------------------------------------------------------------------+
+// define sql module
 @Module({
   imports: [
     ConfigModule.forRoot(),                                                             // Load environment variables

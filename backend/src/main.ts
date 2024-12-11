@@ -3,9 +3,7 @@ import { AppModule } from './app.module';
 import * as cors from 'cors';
 
 
-// +------------------------------------------------------------------------------------------------------------------------+
-// | main entry function                                                                                                    |
-// +------------------------------------------------------------------------------------------------------------------------+
+// main entry function
 const bootstrap = async () => {
   const app = await NestFactory.create(AppModule);                                      // init nest app
 

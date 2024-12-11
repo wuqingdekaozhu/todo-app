@@ -1,9 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn } from 'typeorm';
 
 
-// +------------------------------------------------------------------------------------------------------------------------+
-// | define task entity and map to the data table                                                                           |
-// +------------------------------------------------------------------------------------------------------------------------+
+// define task entity and map to the data table
 @Entity('data')
 export class Task {
   @PrimaryGeneratedColumn()                                                             // primary key column

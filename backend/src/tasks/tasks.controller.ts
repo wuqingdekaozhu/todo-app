@@ -3,9 +3,7 @@ import { TasksService } from './tasks.service';
 import { Task } from './task.entity';
 
 
-// +------------------------------------------------------------------------------------------------------------------------+
-// | handles api endpoints                                                                                                  |
-// +------------------------------------------------------------------------------------------------------------------------+
+// handles api endpoints
 @Controller('tasks')
 export class TasksController {
   constructor(private readonly tasksService: TasksService) {}                         // dependency injection

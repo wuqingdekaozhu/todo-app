@@ -5,9 +5,7 @@ import { TasksController } from './tasks.controller';
 import { Task } from './task.entity';
 
 
-// +------------------------------------------------------------------------------------------------------------------------+
-// | define tasks modules                                                                                                   |
-// +------------------------------------------------------------------------------------------------------------------------+
+// define tasks modules
 @Module({
   imports: [TypeOrmModule.forFeature([Task])],
   controllers: [TasksController],
