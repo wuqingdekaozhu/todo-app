@@ -39,7 +39,7 @@ const Home: React.FC = () => {                                                  
   };
 
   const getAllTasks = async () => {                                                     // fetch tasks from api function
-    var url;                                                                            // store url variable
+    let url;                                                                            // store url variable
     if (filter === 1) {                                                                 // if filter pending
       url = `${API_ENDPOINT}/tasks/?status=Pending`                                     // set url to fetch pending tasks
     } else if (filter === 2) {                                                          // if filter completed
