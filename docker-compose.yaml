@@ -41,8 +41,6 @@ services:
       - "3000:3000"
     depends_on:
       - nest-app
-    environment:
-      API_ENDPOINT: http://nestjs-task-container:3001
 
 volumes:
   mysql_data:

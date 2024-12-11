@@ -28,7 +28,7 @@ const TaskTable: React.FC<TaskTableProps> = ({
             <td className="border border-gray-300 px-4 py-2">{item.title}</td>
             <td className="border border-gray-300 px-4 py-2">{item.status}</td>
             <td className="border border-gray-300 px-4 py-2">{item.description}</td>
-            <td className="px-4 py-2 flex flex-col md:flex-row">
+            <td className="border border-gray-300 px-4 py-2 flex flex-col md:flex-row">
               <button
                 className="bg-blue-300 rounded-lg px-4 py-2 mr-2 mb-1 md:mb-0 text-white hover:bg-blue-500 transition-colors duration-300 ease-in-out"
                 onClick={()=>openEditFunction(item)}
